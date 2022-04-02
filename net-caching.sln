@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6-Redis", "net6-Redis\net6-Redis.csproj", "{2B849C75-6528-4E89-83DB-CD8D00B383B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.InMemory", "DataAccess\DataAccess.InMemory.csproj", "{1A84BF5F-8E42-4BA7-B494-E586C190D573}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6-InMemoryCaching", "net6-InMemoryCaching\net6-InMemoryCaching.csproj", "{470728AD-996F-4930-976A-5CA6554E40F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B849C75-6528-4E89-83DB-CD8D00B383B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B849C75-6528-4E89-83DB-CD8D00B383B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B849C75-6528-4E89-83DB-CD8D00B383B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B849C75-6528-4E89-83DB-CD8D00B383B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A84BF5F-8E42-4BA7-B494-E586C190D573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A84BF5F-8E42-4BA7-B494-E586C190D573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A84BF5F-8E42-4BA7-B494-E586C190D573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A84BF5F-8E42-4BA7-B494-E586C190D573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470728AD-996F-4930-976A-5CA6554E40F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470728AD-996F-4930-976A-5CA6554E40F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470728AD-996F-4930-976A-5CA6554E40F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470728AD-996F-4930-976A-5CA6554E40F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77D28CFA-2B8B-445B-A0D7-AC8B188B5D4E}
+	EndGlobalSection
+EndGlobal
